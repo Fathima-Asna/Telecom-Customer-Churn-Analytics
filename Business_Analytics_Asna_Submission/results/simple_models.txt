@@ -1,0 +1,100 @@
+MonthlyCharges 
+
+Call:
+lm(formula = reformulate(n, "ChurnProbability"), data = d)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.1828 -0.9923 -0.0297  1.0095  4.2016 
+
+Coefficients:
+               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)    2.414171   0.051234   47.12   <2e-16 ***
+MonthlyCharges 0.039507   0.000672   58.79   <2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 1.372 on 4998 degrees of freedom
+Multiple R-squared:  0.4088,	Adjusted R-squared:  0.4087 
+F-statistic:  3456 on 1 and 4998 DF,  p-value: < 2.2e-16
+
+DataUsageGB 
+
+Call:
+lm(formula = reformulate(n, "ChurnProbability"), data = d)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.5760 -1.0186 -0.0055  1.0196  4.2265 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 2.638382   0.050805   51.93   <2e-16 ***
+DataUsageGB 0.086451   0.001576   54.85   <2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 1.409 on 4998 degrees of freedom
+Multiple R-squared:  0.3758,	Adjusted R-squared:  0.3757 
+F-statistic:  3009 on 1 and 4998 DF,  p-value: < 2.2e-16
+
+CallMinutes 
+
+Call:
+lm(formula = reformulate(n, "ChurnProbability"), data = d)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.4060 -1.0147 -0.0272  1.0250  4.6456 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 2.6145672  0.0513569   50.91   <2e-16 ***
+CallMinutes 0.0182789  0.0003343   54.67   <2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 1.411 on 4998 degrees of freedom
+Multiple R-squared:  0.3743,	Adjusted R-squared:  0.3741 
+F-statistic:  2989 on 1 and 4998 DF,  p-value: < 2.2e-16
+
+CustomerTenureMonths 
+
+Call:
+lm(formula = reformulate(n, "ChurnProbability"), data = d)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.7723 -1.0656 -0.0246  1.0925  4.4020 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)           7.027179   0.042015  167.25   <2e-16 ***
+CustomerTenureMonths -0.049946   0.001002  -49.86   <2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 1.458 on 4998 degrees of freedom
+Multiple R-squared:  0.3322,	Adjusted R-squared:  0.332 
+F-statistic:  2486 on 1 and 4998 DF,  p-value: < 2.2e-16
+
+NumComplaints 
+
+Call:
+lm(formula = reformulate(n, "ChurnProbability"), data = d)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.1705 -1.0874  0.0048  1.0710  4.6993 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   1.572520   0.077653   20.25   <2e-16 ***
+NumComplaints 0.456678   0.009414   48.51   <2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 1.471 on 4998 degrees of freedom
+Multiple R-squared:  0.3201,	Adjusted R-squared:   0.32 
+F-statistic:  2353 on 1 and 4998 DF,  p-value: < 2.2e-16
+

@@ -1,0 +1,14 @@
+             variable       mean     median        sd         min       max           mode
+       MonthlyCharges  70.560786  70.815819 28.865315 20.01761061 119.98510 No unique mode
+          DataUsageGB  29.651747  29.792863 12.647455  1.00000000  58.69849              1
+          CallMinutes 141.542988 142.263527 59.694312 20.00000000 284.22242             20
+ CustomerTenureMonths  36.547156  36.719003 20.582222  1.03914471  71.99387 No unique mode
+        NumComplaints   7.947157   7.991132  2.209753  0.08607899  12.00000             12
+     ChurnProbability   5.201811   5.175796  1.783611  0.00000000  10.00000             10
+ mode_frequency
+              1
+              4
+              8
+              1
+            174
+              5

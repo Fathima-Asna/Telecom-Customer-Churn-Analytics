@@ -1,0 +1,24 @@
+
+Call:
+lm(formula = ChurnProbability ~ MonthlyCharges + DataUsageGB + 
+    CallMinutes + CustomerTenureMonths + NumComplaints, data = d)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.79331 -0.55648 -0.01418  0.54309  2.77630 
+
+Coefficients:
+                       Estimate Std. Error t value Pr(>|t|)    
+(Intercept)           1.5063012  0.0929596  16.204   <2e-16 ***
+MonthlyCharges        0.0413362  0.0021072  19.617   <2e-16 ***
+DataUsageGB           0.0026635  0.0032516   0.819    0.413    
+CallMinutes          -0.0011820  0.0007678  -1.539    0.124    
+CustomerTenureMonths -0.0306113  0.0008423 -36.345   <2e-16 ***
+NumComplaints         0.2498861  0.0078482  31.840   <2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 0.8102 on 4994 degrees of freedom
+Multiple R-squared:  0.7938,	Adjusted R-squared:  0.7936 
+F-statistic:  3846 on 5 and 4994 DF,  p-value: < 2.2e-16
+

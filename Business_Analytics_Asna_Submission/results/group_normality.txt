@@ -1,0 +1,23 @@
+d$customer.type: Individual
+
+	Shapiro-Wilk normality test
+
+data:  dd[x, ]
+W = 0.92635, p-value < 2.2e-16
+
+----------------------------------------------------------------------- 
+d$customer.type: Business
+
+	Shapiro-Wilk normality test
+
+data:  dd[x, ]
+W = 0.95458, p-value < 2.2e-16
+
+----------------------------------------------------------------------- 
+d$customer.type: VIP
+
+	Shapiro-Wilk normality test
+
+data:  dd[x, ]
+W = 0.9418, p-value < 2.2e-16
+

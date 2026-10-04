@@ -1,0 +1,6 @@
+             variable          r         t   df p p_holm
+       MonthlyCharges  0.6393659  58.78632 4998 0      0
+          DataUsageGB  0.6130192  54.85393 4998 0      0
+          CallMinutes  0.6117611  54.67391 4998 0      0
+ CustomerTenureMonths -0.5763535 -49.86071 4998 0      0
+        NumComplaints  0.5657877  48.51032 4998 0      0

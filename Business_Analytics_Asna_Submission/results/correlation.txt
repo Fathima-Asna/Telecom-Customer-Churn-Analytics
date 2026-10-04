@@ -1,0 +1,6 @@
+             variable        rho           S p    pearson p_holm
+       MonthlyCharges  0.6377380  7547125438 0  0.6393659      0
+          DataUsageGB  0.6137261  8047372833 0  0.6130192      0
+          CallMinutes  0.6138756  8044258485 0  0.6117611      0
+ CustomerTenureMonths -0.5703280 32715166322 0 -0.5763535      0
+        NumComplaints  0.5603648  9159066991 0  0.5657877      0

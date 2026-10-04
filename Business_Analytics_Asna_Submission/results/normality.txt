@@ -1,0 +1,7 @@
+             variable         W            p
+       MonthlyCharges 0.9554770 1.437836e-36
+          DataUsageGB 0.9759126 2.854991e-28
+          CallMinutes 0.9733802 1.519187e-29
+ CustomerTenureMonths 0.9531506 2.626774e-37
+        NumComplaints 0.9879335 2.847354e-20
+     ChurnProbability 0.9968745 1.038077e-08

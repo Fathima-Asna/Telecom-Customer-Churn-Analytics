@@ -92,10 +92,29 @@ RStudio was used for data preparation, descriptive analysis, visualisation, hypo
 
 ```text
 Telecom-Customer-Churn-Analytics/
-└── README.md
+├── README.md
+└── Business_Analytics_Asna_Submission/
+    ├── Business_Analytics_Asna.docx
+    ├── Business_Analytics_Asna.Rproj
+    ├── analysis.R
+    ├── Telecom_Info_Updated_V2 (1).csv
+    ├── README.txt
+    ├── evidence/
+    │   ├── report_figures/
+    │   ├── execution_log.txt
+    │   └── verification.txt
+    └── results/
 ```
 
-This repository currently contains the project documentation only. The report, R project, script, dataset and evidence are held in the separate submission package and have not been uploaded here.
+The submission folder contains the report, RStudio project, code-only analysis script and dataset. `evidence/report_figures/` preserves the 18 original figure files matched to the report. `results/` contains reproduced statistical tables, charts, text outputs and saved R analysis objects. The execution log and verification record document the successful run and comparison with the original results.
+
+## Run the analysis
+
+1. Download or clone this repository.
+2. Open `Business_Analytics_Asna_Submission/Business_Analytics_Asna.Rproj` in RStudio.
+3. Open `analysis.R` and select **Source**.
+
+The script reads the included dataset using a relative path and writes outputs to `results/`. Running it regenerates those results. No additional R packages are required.
 
 ## Author
 

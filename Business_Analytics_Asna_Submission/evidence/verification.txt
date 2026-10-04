@@ -1,0 +1,17 @@
+Verification
+
+Packaged analysis.R completed successfully using R 4.6.1.
+All 8 original CSV result files reproduced exactly.
+Report is byte-for-byte identical to the supplied Asna document.
+18 original figure files match embedded report images.
+Script contains no comment lines or machine-specific file paths.
+
+Matched result files:
+coefficients.csv
+correlation.csv
+descriptive.csv
+groups.csv
+hc3.csv
+normality.csv
+pearson_matrix.csv
+simple.csv

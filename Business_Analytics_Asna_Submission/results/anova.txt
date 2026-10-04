@@ -1,0 +1,44 @@
+      group    n     mean        sd      low     high      min       max
+ Individual  907 2.612339 0.6867392 2.567587 2.657092 0.000000  3.499820
+   Business 1936 4.569177 0.5670625 4.543902 4.594453 3.505115  5.496594
+        VIP 2157 6.858478 0.9815261 6.817033 6.899923 5.501395 10.000000
+
+Brown-Forsythe variance test
+                  Df Sum Sq Mean Sq F value Pr(>F)    
+d$customer.type    2  109.5   54.74   243.2 <2e-16 ***
+Residuals       4997 1124.9    0.23                   
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+	One-way analysis of means (not assuming equal variances)
+
+data:  ChurnProbability and customer.type
+F = 9455.5, num df = 2.0, denom df = 2435.7, p-value < 2.2e-16
+
+
+Holm-adjusted pairwise Welch tests
+
+	Pairwise comparisons using t tests with non-pooled SD 
+
+data:  y and d$customer.type 
+
+         Individual Business
+Business <2e-16     -       
+VIP      <2e-16     <2e-16  
+
+P value adjustment method: holm 
+
+Ordinary ANOVA sensitivity check
+                Df Sum Sq Mean Sq F value Pr(>F)    
+customer.type    2  12777    6388   10210 <2e-16 ***
+Residuals     4997   3127       1                   
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+Eta squared: 0.8033992 
+
+	Kruskal-Wallis rank sum test
+
+data:  ChurnProbability by customer.type
+Kruskal-Wallis chi-squared = 4277.6, df = 2, p-value < 2.2e-16
+
+Threshold-rule agreement: 1 
